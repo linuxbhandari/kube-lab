@@ -14,6 +14,8 @@ spec:
       values: |
         service:
           type: NodePort
+          nodePort: 32000
+
         adminPassword: admin123
 
   destination:
@@ -25,4 +27,4 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
-    - CreateNamespace=true
+      - CreateNamespace=true
