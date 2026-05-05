@@ -6,7 +6,7 @@ metadata:
     app: nginx-app1
   name: nginx-app1
 spec:
-  replicas: 4
+  replicas: 6
   selector:
     matchLabels:
       app: nginx-app1
@@ -18,7 +18,7 @@ spec:
         app: nginx-app1
     spec:
       containers:
-      - image: docker.io/nginx:1.19
+      - image: docker.io/nginx:1.25
         name: nginx
         resources: {}
 status: {}
