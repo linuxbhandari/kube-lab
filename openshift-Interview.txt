@@ -1,0 +1,67 @@
+Real Interview Tips
+===================
+If asked “Tell me about your experience”
+
+Structure:
+
+Cluster management
+Deployments
+CI/CD
+Troubleshooting
+Monitoring
+GitOps
+Security
+=====
+Top 10 Questions You MUST Prepare Perfectly
+
+OpenShift vs Kubernetes
+SCC
+Routes vs Ingress
+Operators
+Troubleshooting pods
+RBAC
+ResourceQuota & LimitRange
+CI/CD workflow
+Argo CD workflow
+GitOps + Argo CD troubleshooting
+
+
+Important Commands Cheat Sheet
+===============================
+oc login
+oc projects
+oc new-project demo
+oc get all
+oc describe pod <pod>
+oc logs <pod>
+oc exec -it <pod> -- bash
+oc get routes
+oc expose svc app
+oc apply -f app.yaml
+
+
+============================
+
+
+Troubleshooting Questions
+=========================
+oc get pods
+oc describe pod <pod>
+oc logs <pod>
+oc get events
+oc adm top nodes
+oc debug node/<node>
+
+Scenario-Based Questions
+========================
+
+Q) Pod Not Starting
+
+Typical debugging flow:
+Check pod status
+Describe pod
+Check events
+Check image pull
+Check SCC permissions
+Check resource limits
+Check node capacity

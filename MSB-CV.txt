@@ -37,7 +37,7 @@ Monitoring & Observability
 
 Storage & Infrastructure
     * Ceph
-    *iSCSI
+    * iSCSI
     * LVM
     * High Availability Clustering
 
@@ -70,7 +70,6 @@ Monitoring & Production Support
     * Coordinated with application and infrastructure teams during deployments and maintenance activities.
 
 
-
 Project: BMW
 OpenStack & Infrastructure Management
     * Managed OpenStack projects, instances, quotas, and storage resources.
@@ -84,7 +83,6 @@ Automation & Monitoring
     * Automated operational tasks using Ansible playbooks and reusable roles.
     * Conducted infrastructure monitoring and daily health checks using Prometheus and Grafana.
     * Configured Alertmanager for proactive alerting and monitoring.
-
 
 
 Velocis Systems Pvt. Ltd.
@@ -120,12 +118,9 @@ Linux System Administrator
     * Monitored infrastructure and handled incidents as per SLA requirements.
 
 
-
 Education
-Master of Computer Applications (MCA)
-Integral University
-Bachelor of Science in Information Technology (B.Sc. IT)**
-PTU University
+    * Master of Computer Applications (MCA) Integral University
+    * Bachelor of Science in Information Technology (B.Sc. IT) PTU University
 
 Achievements
     * Recipient of the Delivery Excellence Award (CDM) at NTT DATA Services
@@ -137,5 +132,3 @@ Professional Highlights
     * Experience supporting enterprise production environments for global clients
     * Strong troubleshooting, automation, and infrastructure management skills
     * Proven experience in high-availability and mission-critical environments
-
-
