@@ -10,9 +10,8 @@ Worker Nodes : Nodes where actual application containers and workloads run.
       ↓
 Pods/Applications : Smallest deployable units where applications run inside containers.
 
-
 =========================
-1. Control Plane (Master Nodes)
+1. Control Plane Nodes (Master Nodes)
       - The Control Plane is the brain of the cluster.
       - Usually deploy with 3 nodes for High Avalibility.
 
@@ -27,7 +26,7 @@ Pods/Applications : Smallest deployable units where applications run inside cont
 
       Everything communicates through API Server.
 
-      b) ETCD : ETCD is the distributed key-value database.
+      b) ETCD : ETCD is a distributed key-value datastore that stores the entire cluster state and configuration.
       Stores:
             - Pods
             - Deployments
@@ -69,7 +68,7 @@ Pods/Applications : Smallest deployable units where applications run inside cont
       Worker nodes run application workloads.
 
       Main components:
-   a)   Kubelet
+   a) Kubelet
             - Agent running on each node.
             - Communicates with API Server.
    b) CRI-O

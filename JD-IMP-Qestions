@@ -12,29 +12,31 @@ This list is tailored for a senior Red Hat OpenShift Architect role focused on:
 
 1. OpenShift Core Architecture
 	* Explain OpenShift architecture in detail.
-
+		* Explain the request flow inside OpenShift.
+		* What are the main control plane components?
+		* What is the role of the API Server?
+		* How does the Scheduler work?
+		* How does pod scheduling work internally?
+		* What is ETCD and why is it critical?
+		* How does ETCD quorum work?
+		* What happens if ETCD loses quorum?
+			=> ETCD quorum means more than 50% of ETCD members must be healthy. If quorum is lost, the OpenShift control plane cannot function correctly because API Server cannot reliably read or write cluster state. Existing workloads may continue running, but new scheduling, deployments, scaling, and cluster updates fail until quorum is restored.
+		* What happens if a master node fails?
+			=> In a 3-node highly available OpenShift cluster, if one control plane node fails, the cluster continues working because ETCD quorum and other API Servers are still available. If multiple control plane nodes fail and ETCD quorum is lost, the control plane becomes unavailable and new cluster operations stop working.
+		* How does OpenShift achieve High Availability?
+		* Explain OpenShift HA architecture flow.
+		* Why are load balancers required in OpenShift?
+		* Difference between API LB and Application LB?
 	
-	* Explain the request flow inside OpenShift.
-	* What are the main control plane components?
-	* What is the role of the API Server?
-	* How does the Scheduler work?
-	* How does pod scheduling work internally?
-	* What is ETCD and why is it critical?
-	* How does ETCD quorum work?
-	* What happens if ETCD loses quorum?
-	* What happens if a master node fails?
-	* How does OpenShift achieve High Availability?
-	* Explain OpenShift HA architecture flow.
-	* Why are load balancers required in OpenShift?
-	* Difference between API LB and Application LB?
 	* How does networking work in OpenShift?
+		=> OpenShift networking enables communication between pods, services, and external users. Each pod gets its own unique IP address. Internal communication happens through Services, while external traffic comes through Routes and Router pods. OpenShift commonly uses OVN-Kubernetes as the networking plugin for pod-to-pod communication, network policies, and traffic management.
 	* Difference between OpenShift SDN and OVN-Kubernetes?
 	* Explain Route vs Ingress.
 	* What is the role of Router pods?
 	* What are Infrastructure Nodes?
-	* Why are infra nodes used?
-	* What is CRI-O?
-	* Why does OpenShift use CRI-O instead of Docker?
+		* Why are infra nodes used?
+		* What is CRI-O?
+		* Why does OpenShift use CRI-O instead of Docker?
 	* Difference between IPI and UPI installation?
 	* Explain OpenShift Virtualization/KubeVirt.
 	* How do you design enterprise multi-zone architecture?
