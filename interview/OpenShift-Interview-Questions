@@ -1,0 +1,22 @@
+NTT Interview Questions
+==========================
+- Pod to pod communication
+- How to update file in mcp like dns
+- How to troubleshoot node if it stuck somewhere. and you did not found any error.
+- How to troubleshoot deployment. what is your approach.
+- Post-check before openShift-upgrade and process.
+- OpenShift cluster running slow. How to troubleshoot this.
+- What is service, service flow. how to trublesheet service if not accessible to user.
+- Deployment flow and troubleshoot if end user unable to access site.
+- Deployment strategy | Affinity and their types.
+- How to do drain. Why we do draining the node and what are the commands we can use for that.
+- What is pv and pvc. how to are mapped which each other.
+	I means how to identify each other which one is right.
+
+- Have you done OpenShift Installation.
+- Have you work on cloud.
+- Different between Kubernetes and openShift.
+- What is the purpose of machine config and how you can update this.
+- Edge deployment.
+- What king of work you do with Ansbile in OpenShift.
+- how can you give admin right to user on specific namespace only.
