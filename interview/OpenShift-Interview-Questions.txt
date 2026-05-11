@@ -20,3 +20,8 @@ NTT Interview Questions
 - Edge deployment.
 - What king of work you do with Ansbile in OpenShift.
 - how can you give admin right to user on specific namespace only.
+- Openshift network in UPS
+- diff in  StatefulSets and deployment
+- how to troubleshoot if Node NotReady
+
+
