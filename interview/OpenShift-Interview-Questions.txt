@@ -5,6 +5,12 @@ NTT Interview Questions
 - How to troubleshoot node if it stuck somewhere. and you did not found any error.
 - How to troubleshoot deployment. what is your approach.
 - Post-check before openShift-upgrade and process.
+- How to upgrade openshift cluster from 4.14.x to 4.20.x
+	What is the standard way to do that.
+		- Sequential Updates: For standard minor versions
+		- you must upgrade step-by-step (e.g., 4.12 → 4.13 → 4.14). 
+			- you can Red Hat OpenShift Container Platform Update Graph
+			
 - OpenShift cluster running slow. How to troubleshoot this.
 - What is service, service flow. how to trublesheet service if not accessible to user.
 - Deployment flow and troubleshoot if end user unable to access site.
@@ -23,5 +29,4 @@ NTT Interview Questions
 - Openshift network in UPS
 - diff in  StatefulSets and deployment
 - how to troubleshoot if Node NotReady
-
 

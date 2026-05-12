@@ -1,3 +1,4 @@
+
 You’re actually in a very good position to prepare effectively because you already have:
   * Linux background
   * production support experience
@@ -30,6 +31,7 @@ Phase 1 — Kubernetes Fundamentals (Very Important)
 You must become very comfortable with:
 
 Topic	Priority
+==============
   * Pods	High
   * Deployments	High
   * Services	High
